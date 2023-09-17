@@ -18,7 +18,7 @@ void _putbinary_withCounter(unsigned int num, int *i)
 }
 
 /**
- * _putbinary - writes the character c to stdout
+ * _putbinary - convert number to binary
  * @num: The character to print
  *
  * Return: On success length of num.

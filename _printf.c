@@ -36,6 +36,18 @@ int _printf(const char *format, ...)
 			
 			else if (format[i] == 'b')
 				len += _putbinary(va_arg(args, unsigned int));
+			
+			else if (format[i] == 'u')
+				len += _putunsigned(va_arg(args, unsigned int));
+			
+			else if (format[i] == 'o')
+				len += _putoctal(va_arg(args, unsigned int));
+			
+			else if (format[i] == 'x')
+				len += _puthex(va_arg(args, unsigned int));
+			
+			else if (format[i] == 'X')
+				len += _putHEX(va_arg(args, unsigned int));
 		}
 		else
 			len += _putchar(format[i]);
