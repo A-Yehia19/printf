@@ -10,7 +10,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-void _putnum_withCounter(int num, int* i)
+void _putnum_withCounter(long int num, int* i)
 {
 	if (num / 10)
 		_putnum_withCounter(num / 10, i);
@@ -25,17 +25,18 @@ void _putnum_withCounter(int num, int* i)
  * Return: On success length of number.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putnum(int num)
+int _putnum(long int num)
 {
 	int i;
 
+	i = 0;
 	if (num < 0)
 	{
 		_putchar('-');
 		num = -num;
+		i++;
 	}
 
-	i = 0;
 	_putnum_withCounter(num, &i);
 	return (i);
 }

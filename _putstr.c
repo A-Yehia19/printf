@@ -12,6 +12,9 @@ int _putstr(char* str)
 {
 	int i;
 
+	if (!str)
+		str = "(null)";
+
 	for (i = 0; str[i]; i++)
 		_putchar(str[i]);
 
