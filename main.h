@@ -11,5 +11,6 @@ int _putoctal(unsigned int num);
 int _puthex(unsigned int num);
 int _putHEX(unsigned int num);
 int _putstr_custom(char *str);
+int _putaddress(void *address);
 
 #endif

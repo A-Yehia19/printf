@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putstr_custom - writes string to stdout
+ * _putstr_custom - print address
  * @str: The string to print
  *
  * Return: On success length of string.
