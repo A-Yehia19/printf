@@ -8,7 +8,7 @@
  * Return: On success length of string.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putstr(char* str)
+int _putstr(char *str)
 {
 	int i;
 
