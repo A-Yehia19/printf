@@ -13,7 +13,7 @@ void _putrev_withCounter(char *str, int *i)
 {
 	if (*str == '\0')
 		return;
-	
+
 	_putrev_withCounter(str + 1, i);
 	_putchar(*str);
 	*i += 1;
