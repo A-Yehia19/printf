@@ -13,8 +13,10 @@ int main(void)
 	int len;
     int len2;
 
-    len = _printf("Character:[%c]\n", 'H');
-    len2 = printf("Character:[%c]\n", 'H');
+    len = _printf("Character:[%", 'H');
+    printf("\n");
+    len2 = printf("Character:[%", 'H');
+    printf("\n");
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
     len = _printf("String:[%s]\n", "I am a string !");

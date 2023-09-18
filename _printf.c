@@ -23,8 +23,8 @@ int _printf(const char *format, ...)
 		{
 			i++;
 			if (format[i] == '\0')
-				return (-1);
-			
+				return (len);
+
 			else if (format[i] == 'c')
 				len += _putchar(va_arg(args, int));
 
@@ -33,36 +33,6 @@ int _printf(const char *format, ...)
 
 			else if (format[i] == '%')
 				len += _putchar('%');
-
-			else if (format[i] == 'd' || format[i] == 'i')
-				len += _putnum(va_arg(args, int));
-
-			else if (format[i] == 'b')
-				len += _putbinary(va_arg(args, unsigned int));
-
-			else if (format[i] == 'u')
-				len += _putunsigned(va_arg(args, unsigned int));
-
-			else if (format[i] == 'o')
-				len += _putoctal(va_arg(args, unsigned int));
-
-			else if (format[i] == 'x')
-				len += _puthex(va_arg(args, unsigned int));
-
-			else if (format[i] == 'X')
-				len += _putHEX(va_arg(args, unsigned int));
-
-			else if (format[i] == 'S')
-				len += _putstr_custom(va_arg(args, char *));
-
-			else if (format[i] == 'p')
-				len += _putaddress(va_arg(args, void *));
-
-			else if (format[i] == 'r')
-				len += _putrev(va_arg(args, char *));
-
-			else if (format[i] == 'R')
-				len += _putrot13(va_arg(args, char *));
 
 			else
 			{
