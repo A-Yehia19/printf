@@ -4,7 +4,7 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _putstr(char *str);
-int _putnum(long long int num);
+int _putnum(long int num);
 int _putbinary(unsigned long int num);
 int _putunsigned(unsigned long int num);
 int _putoctal(unsigned long int num);
