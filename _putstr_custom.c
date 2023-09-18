@@ -23,7 +23,8 @@ int _putstr_custom(char *str)
 			_putchar('x');
 			if (str[i] < 16)
 				_putchar('0');
-			_puthex(str[i]);
+			_putHEX(str[i]);
+
 			special++;
 		}
 		else
