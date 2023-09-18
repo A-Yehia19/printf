@@ -12,5 +12,7 @@ int _puthex(unsigned long int num);
 int _putHEX(unsigned long int num);
 int _putstr_custom(char *str);
 int _putaddress(void *address);
+int _putrev(char *str);
+int _putrot13(char *str);
 
 #endif
