@@ -22,7 +22,10 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			i++;
-			if (format[i] == 'c')
+			if (format[i] == '\0')
+				return (-1);
+			
+			else if (format[i] == 'c')
 				len += _putchar(va_arg(args, int));
 
 			else if (format[i] == 's')
