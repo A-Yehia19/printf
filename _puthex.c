@@ -15,7 +15,7 @@ void _puthex_withCounter(unsigned long int num, int *i)
 
 	if (num / 16)
 		_puthex_withCounter(num / 16, i);
-	
+
 	rem = num % 16;
 	_putchar(rem < 10 ? rem + '0' : rem - 10 + 'a');
 	*i += 1;

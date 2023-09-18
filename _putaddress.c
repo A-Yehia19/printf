@@ -3,7 +3,7 @@
 
 /**
  * _putaddress - writes address of pointer
- * @str: The string to print
+ * @address: The address to print
  *
  * Return: On success length of string.
  */
@@ -11,6 +11,6 @@ int _putaddress(void *address)
 {
 	if (address == NULL)
 		return (_putstr("(nil)"));
-	
+
 	return (_putstr("0x") + _puthex((unsigned long int)address));
 }

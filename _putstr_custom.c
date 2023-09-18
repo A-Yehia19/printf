@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putstr_custom - print address
+ * _putstr_custom - print string with non-printable characters
  * @str: The string to print
  *
  * Return: On success length of string.
@@ -15,7 +15,8 @@ int _putstr_custom(char *str)
 		str = "(null)";
 
 	special = 0;
-	for (i = 0; str[i]; i++){
+	for (i = 0; str[i]; i++)
+	{
 		if (str[i] < 32 || str[i] >= 127)
 		{
 			_putchar('\\');
@@ -23,7 +24,7 @@ int _putstr_custom(char *str)
 			if (str[i] < 16)
 				_putchar('0');
 			_puthex(str[i]);
-			special ++;
+			special++;
 		}
 		else
 			_putchar(str[i]);

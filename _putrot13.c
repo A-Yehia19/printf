@@ -23,7 +23,7 @@ int _putrot13(char *str)
 		else if ((str[i] >= 'n' && str[i] <= 'z') ||
 			(str[i] >= 'N' && str[i] <= 'Z'))
 			_putchar(str[i] - 13);
-		
+
 		else
 			_putchar(str[i]);
 	}
