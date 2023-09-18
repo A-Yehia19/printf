@@ -4,12 +4,12 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _putstr(char *str);
-int _putnum(int num);
-int _putbinary(unsigned int num);
-int _putunsigned(unsigned int num);
-int _putoctal(unsigned int num);
-int _puthex(unsigned int num);
-int _putHEX(unsigned int num);
+int _putnum(long long int num);
+int _putbinary(unsigned long int num);
+int _putunsigned(unsigned long int num);
+int _putoctal(unsigned long int num);
+int _puthex(unsigned long int num);
+int _putHEX(unsigned long int num);
 int _putstr_custom(char *str);
 int _putaddress(void *address);
 

@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _putbinary_withCounter(unsigned int num, int *i)
+void _putbinary_withCounter(unsigned long int num, int *i)
 {
 	if (num / 2)
 		_putbinary_withCounter(num / 2, i);
@@ -23,7 +23,7 @@ void _putbinary_withCounter(unsigned int num, int *i)
  *
  * Return: On success length of num.
  */
-int _putbinary(unsigned int num)
+int _putbinary(unsigned long int num)
 {
 	int i;
 

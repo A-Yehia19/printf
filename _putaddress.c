@@ -12,5 +12,5 @@ int _putaddress(void *address)
 	if (address == NULL)
 		return (_putstr("(nil)"));
 	
-	return (_putstr("0x") + _puthex((unsigned int)address));
+	return (_putstr("0x") + _puthex((unsigned long int)address));
 }

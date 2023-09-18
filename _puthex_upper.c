@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _putHEX_withCounter(unsigned int num, int *i)
+void _putHEX_withCounter(unsigned long int num, int *i)
 {
 	int rem;
 
@@ -27,7 +27,7 @@ void _putHEX_withCounter(unsigned int num, int *i)
  *
  * Return: On success length of num.
  */
-int _putHEX(unsigned int num)
+int _putHEX(unsigned long int num)
 {
 	int i;
 

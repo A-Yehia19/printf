@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _puthex_withCounter(unsigned int num, int *i)
+void _puthex_withCounter(unsigned long int num, int *i)
 {
 	int rem;
 
@@ -27,7 +27,7 @@ void _puthex_withCounter(unsigned int num, int *i)
  *
  * Return: On success length of num.
  */
-int _puthex(unsigned int num)
+int _puthex(unsigned long int num)
 {
 	int i;
 

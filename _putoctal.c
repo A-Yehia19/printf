@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _putoctal_withCounter(unsigned int num, int *i)
+void _putoctal_withCounter(unsigned long int num, int *i)
 {
 	if (num / 8)
 		_putoctal_withCounter(num / 8, i);
@@ -23,7 +23,7 @@ void _putoctal_withCounter(unsigned int num, int *i)
  *
  * Return: On success length of num.
  */
-int _putoctal(unsigned int num)
+int _putoctal(unsigned long int num)
 {
 	int i;
 

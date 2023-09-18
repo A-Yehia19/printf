@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _putnum_withCounter(int num, int *i)
+void _putnum_withCounter(long int num, int *i)
 {
 	if (num / 10)
 		_putnum_withCounter(num / 10, i);
@@ -23,7 +23,7 @@ void _putnum_withCounter(int num, int *i)
  *
  * Return: On success length of number.
  */
-int _putnum(int num)
+int _putnum(long int num)
 {
 	int i;
 

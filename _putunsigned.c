@@ -9,7 +9,7 @@
  * Return: On success length of number.
  */
 
-void _putunsigned_withCounter(unsigned int num, int *i)
+void _putunsigned_withCounter(unsigned long int num, int *i)
 {
 	if (num / 10)
 		_putunsigned_withCounter(num / 10, i);
@@ -23,7 +23,7 @@ void _putunsigned_withCounter(unsigned int num, int *i)
  *
  * Return: On success length of number.
  */
-int _putunsigned(unsigned int num)
+int _putunsigned(unsigned long int num)
 {
 	int i;
 
