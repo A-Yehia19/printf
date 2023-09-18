@@ -11,7 +11,7 @@ int _putstr_custom(char *str)
 {
 	int i, special;
 
-	if (!str)
+	if (str == NULL || !*str)
 		str = "(null)";
 
 	special = 0;
