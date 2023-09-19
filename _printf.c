@@ -43,7 +43,6 @@ int _printf(const char *format, ...)
 				len += _putoctal(va_arg(args, unsigned int));
 			else if (format[i] == 'x')
 				len += _puthex(va_arg(args, unsigned int));
-
 			else if (format[i] == 'X')
 				len += _putHEX(va_arg(args, unsigned int));
 
