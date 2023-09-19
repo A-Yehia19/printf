@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putunsigned_withCounter - writes unsigned number to stdout
+ * _putunsigned_withCounter - writes unsigned number to stdout.
  * @num: The number to print
  * @i: pointer to length
  *
