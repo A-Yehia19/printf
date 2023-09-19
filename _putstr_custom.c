@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putstr_custom - print string with non-printable characters
- * @str: The string to print
+ * _putstr_custom - print string with non-printable characters.
+ * @str: The string to print.
  *
  * Return: On success length of string.
  */
