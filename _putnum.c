@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putnum_withCounter - writes the number to stdout
- * @num: The number to print
+ * _putnum_withCounter - writes the number to stdout.
+ * @num: The number to print.
  * @i: pointer to length
  *
  * Return: On success length of number.
