@@ -31,7 +31,6 @@ int _printf(const char *format, ...)
 				len += _putchar(va_arg(args, int));
 			else if (format[i] == 's')
 				len += _putstr(va_arg(args, char *));
-
 			else if (format[i] == '%')
 				len += _putchar('%');
 
