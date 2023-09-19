@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putbinary_withCounter - convert number to binary
- * @num: The number to print
+ * _putbinary_withCounter - convert number to binary.
+ * @num: The number to print.
  * @i: pointer to length
  *
  * Return: On success length of number.
