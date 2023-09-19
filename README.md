@@ -1,3 +1,4 @@
 # printf
 implementation of printf function
-code by Abdulla and Mohamed 
+code by Abdulla and Mohamed
+cohot
