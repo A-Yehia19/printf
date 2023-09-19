@@ -27,7 +27,6 @@ int _printf(const char *format, ...)
 			i++;
 			if (format[i] == '\0')
 				return (-1);
-
 			else if (format[i] == 'c')
 				len += _putchar(va_arg(args, int));
 
