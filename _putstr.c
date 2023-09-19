@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putstr - writes string to stdout
- * @str: The string to print
+ * _putstr - writes string to stdout.
+ * @str: The string to print.
  *
  * Return: On success length of string.
  */
