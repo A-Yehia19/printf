@@ -35,7 +35,6 @@ int _printf(const char *format, ...)
 				len += _putchar('%');
 			else if (format[i] == 'd' || format[i] == 'i')
 				len += _putnum(va_arg(args, int));
-
 			else if (format[i] == 'b')
 				len += _putbinary(va_arg(args, unsigned int));
 
