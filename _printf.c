@@ -47,7 +47,6 @@ int _printf(const char *format, ...)
 				len += _putHEX(va_arg(args, unsigned int));
 			else if (format[i] == 'S')
 				len += _putstr_custom(va_arg(args, char *));
-
 			else if (format[i] == 'p')
 				len += _putaddress(va_arg(args, void *));
 
