@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putrev_withCounter - writes string in reverse
- * @str: The string to print
+ * _putrev_withCounter - writes string in reverse.
+ * @str: The string to print.
  * @i: pointer to length
  *
  * Return: On success length of number.
