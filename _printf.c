@@ -39,7 +39,6 @@ int _printf(const char *format, ...)
 				len += _putbinary(va_arg(args, unsigned int));
 			else if (format[i] == 'u')
 				len += _putunsigned(va_arg(args, unsigned int));
-
 			else if (format[i] == 'o')
 				len += _putoctal(va_arg(args, unsigned int));
 
