@@ -53,7 +53,6 @@ int _printf(const char *format, ...)
 				len += _putrev(va_arg(args, char *));
 			else if (format[i] == 'R')
 				len += _putrot13(va_arg(args, char *));
-
 			else
 			{
 				len += _putchar('%');
