@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putoctal_withCounter - convert number to octal
+ * _putoctal_withCounter - convert number to octal.
  * @num: The number to print
  * @i: pointer to length
  *
