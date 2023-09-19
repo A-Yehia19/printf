@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putrot13 - writes string rotated 13 places to stdout
+ * _putrot13 - writes string rotated 13 places to stdout.
  * @str: The string to print
  *
  * Return: On success length of string.
