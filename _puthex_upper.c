@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _putHEX_withCounter - convert number to hex upper case
- * @num: The number to print
+ * _putHEX_withCounter - convert number to hex upper case.
+ * @num: The number to print.
  * @i: pointer to length
  *
  * Return: On success length of number.
