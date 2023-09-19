@@ -37,6 +37,15 @@ int _printf(const char *format, ...)
 			else if (format[i] == '%')
 				len += _putchar('%');
 
+			else if (format[i] == '+')
+				 len += _putchar('+');
+
+			else if (format[i] == ' ')
+				len += _putchar(' ');
+
+			else if (format[i] == '#')
+				 len += _putchar('#');
+
 			else if (format[i] == 'd' || format[i] == 'i')
 				len += _putnum(va_arg(args, int));
 
