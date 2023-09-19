@@ -49,7 +49,6 @@ int _printf(const char *format, ...)
 				len += _putstr_custom(va_arg(args, char *));
 			else if (format[i] == 'p')
 				len += _putaddress(va_arg(args, void *));
-
 			else if (format[i] == 'r')
 				len += _putrev(va_arg(args, char *));
 
