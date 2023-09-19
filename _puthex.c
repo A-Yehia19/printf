@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _puthex_withCounter - convert number to hex lower case
- * @num: The number to print
+ * _puthex_withCounter - convert number to hex lower case.
+ * @num: The number to print.
  * @i: pointer to length
  *
  * Return: On success length of number.
