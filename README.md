@@ -1,3 +1,3 @@
 # printf
 implementation of printf function
-code by Abdulla 
+code by Abdulla and Mohamed 
