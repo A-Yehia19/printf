@@ -29,7 +29,6 @@ int _printf(const char *format, ...)
 				return (-1);
 			else if (format[i] == 'c')
 				len += _putchar(va_arg(args, int));
-
 			else if (format[i] == 's')
 				len += _putstr(va_arg(args, char *));
 
