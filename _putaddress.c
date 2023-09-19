@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putaddress - writes address of pointer
+ * _putaddress - writes address of pointer.
  * @address: The address to print
  *
  * Return: On success length of string.
